@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+  workflow_dispatch:
 env:
   MONGODB_CLUSTER_ADDRESS: cluster0.v0ahg.mongodb.net
 jobs:
